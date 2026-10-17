@@ -69,14 +69,8 @@ load /org/gnome/settings-daemon/plugins/media-keys/ keybindings.dconf
 load /org/gnome/shell/extensions/ extensions.dconf
 load /org/gnome/shell/ shell.dconf
 
-echo "==> Wallpaper"
-W=$(ls "$REPO"/wallpaper/* 2>/dev/null | head -1 || true)
-if [ -n "${W:-}" ]; then
-  gsettings set org.gnome.desktop.background picture-uri "file://$W"
-  gsettings set org.gnome.desktop.background picture-uri-dark "file://$W"
-fi
-
 echo
 echo "Done. Manual steps left:"
 echo "  1. Extension Manager: install User Themes, Just Perfection, Blur my Shell, Executor, Tiling Shell"
 echo "  2. Log out and back in, then enable all extensions"
+echo "  3. Set your wallpaper (see the README)"
