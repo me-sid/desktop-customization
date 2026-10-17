@@ -2,6 +2,7 @@
 clock-format='12h'
 color-scheme='prefer-dark'
 cursor-theme='catppuccin-mocha-mauve-cursors'
+enable-animations=true
 gtk-theme='Catppuccin-Mauve-Dark'
 icon-theme='Papirus-Dark'
 show-battery-percentage=true

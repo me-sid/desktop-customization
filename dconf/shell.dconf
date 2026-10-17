@@ -2,7 +2,7 @@
 app-picker-layout=[{'org.fedoraproject.MediaWriter.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'libreoffice-calc.desktop': <{'position': <5>}>, 'org.gnome.SimpleScan.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.Boxes.desktop': <{'position': <8>}>, 'org.gnome.Showtime.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'org.gnome.Characters.desktop': <{'position': <11>}>, 'Utilities': <{'position': <12>}>, 'System': <{'position': <13>}>, 'libreoffice-impress.desktop': <{'position': <14>}>, 'org.gnome.Tour.desktop': <{'position': <15>}>, 'org.gnome.Yelp.desktop': <{'position': <16>}>, 'libreoffice-writer.desktop': <{'position': <17>}>, 'org.gnome.Ptyxis.desktop': <{'position': <18>}>, 'com.cloudflare.WarpTaskbar.desktop': <{'position': <19>}>, 'org.gnome.Extensions.desktop': <{'position': <20>}>}]
 disable-user-extensions=false
 disabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com']
-enabled-extensions=['background-logo@fedorahosted.org', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'argos@pew.worldwidemann.com', 'executor@raujonas.github.io', 'search-pulse@rezkycodes']
+enabled-extensions=['background-logo@fedorahosted.org', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'argos@pew.worldwidemann.com', 'executor@raujonas.github.io', 'search-pulse@rezkycodes', 'tilingshell@ferrarodomenico.com']
 last-selected-power-profile='performance'
 remember-mount-password=false
 welcome-dialog-last-shown-version='50.0'
@@ -119,6 +119,22 @@ preferred-monitor=0
 scale-height=0.10000000000000001
 scale-width=0.10000000000000001
 shortcut-search=['<Super>d']
+
+[extensions/tilingshell]
+edge-tiling-mode='default'
+enable-autotiling=false
+enable-blur-selected-tilepreview=false
+enable-blur-snap-assistant=false
+enable-snap-assistant-windows-suggestions=true
+enable-tiling-system-windows-suggestions=true
+inner-gaps=uint32 8
+last-version-name-installed='17.3'
+layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]}]'
+outer-gaps=uint32 0
+overridden-settings="{\"org.gnome.mutter.keybindings\":{\"toggle-tiled-right\":\"['<Super>Right']\",\"toggle-tiled-left\":\"['<Super>Left']\"},\"org.gnome.desktop.wm.keybindings\":{\"maximize\":\"['<Super>Up']\",\"unmaximize\":\"['<Super>Down', '<Alt>F5']\"},\"org.gnome.mutter\":{\"edge-tiling\":\"true\"}}"
+resize-complementing-windows=true
+selected-layouts=[['Layout 1'], ['Layout 1'], ['Layout 1'], ['Layout 1'], ['Layout 1']]
+window-use-custom-border-color=false
 
 [extensions/user-theme]
 name='Catppuccin-Mauve-Dark'
