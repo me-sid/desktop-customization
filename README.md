@@ -1,21 +1,19 @@
-# Desktop Customization: Catppuccin Mocha on Fedora GNOME
+# Desktop Customization on Fedora GNOME
 
-A consistent, keyboard-driven developer desktop on **Fedora GNOME 50**, themed with **Catppuccin Mocha (mauve)**.
+A consistent, keyboard-driven developer desktop on **Fedora GNOME 50**.
 The terminal, launcher, top bar, windows, icons and cursor all share one palette, and everything is stored in this repo so it can be rebuilt with one command.
 
 ## Screenshots
 
-plug=(basename screenshots/Screenshot1.png)](screenshots/Screenshot1.png)
+![Screenshot 1](screenshots/Screenshot1.png)
 
-plug=(basename screenshots/Screenshot2.png)](screenshots/Screenshot2.png)
+![Screenshot 2](screenshots/Screenshot2.png)
 
-plug=(basename screenshots/Screenshot3.png)](screenshots/Screenshot3.png)
+![Screenshot 3](screenshots/Screenshot3.png)
 
-plug=(basename screenshots/Screenshot4.png)](screenshots/Screenshot4.png)
+![Screenshot 4](screenshots/Screenshot4.png)
 
-plug=(basename screenshots/Screenshot5.png)](screenshots/Screenshot5.png)
-
-plug=(basename screenshots/Screenshot6.png)](screenshots/Screenshot6.png)
+![Screenshot 5](screenshots/Screenshot5.png)
 
 
 ## What's in this setup
@@ -111,15 +109,9 @@ After changing something in GNOME, re-export it so the repo stays current:
 - One-command install (`install.sh`)
 - Extended kitty setup: powerline tabs, splits, themed cursor and tab bar
 
-## Notes
-
-- Rofi was tried as the launcher but does not run on GNOME Wayland (it needs the layer-shell protocol, which GNOME does not support), so a GNOME extension launcher is used instead.
-- Argos was not used for the panel script because it does not support GNOME 50. Executor does the same job.
-- Extensions can break after GNOME updates, so only a small set is used.
 
 ## Credits
 
 - [Catppuccin](https://github.com/catppuccin): palette, cursors and Papirus folder colors
 - [Fausto-Korpsvart Catppuccin GTK theme](https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme)
 - [Search Pulse](https://github.com/rezkycodes/search-pulse) launcher extension
-- Wallpaper: PUT WALLPAPER SOURCE HERE
