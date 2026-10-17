@@ -1,0 +1,8 @@
+[/]
+clock-format='12h'
+color-scheme='prefer-dark'
+cursor-theme='catppuccin-mocha-mauve-cursors'
+gtk-theme='Catppuccin-Mauve-Dark'
+icon-theme='Papirus-Dark'
+show-battery-percentage=true
+toolkit-accessibility=false

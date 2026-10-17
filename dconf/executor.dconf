@@ -1,0 +1,6 @@
+[/]
+center-commands-json='{"commands":[]}'
+left-commands-json="{\"commands\":[{\"isActive\":true,\"command\":\"   bash -c '~/desktop-customization/scripts/stats.5s.sh | head -1'\",\"interval\":5,\"uuid\":\"7e2cbadc-0d68-4c6a-b7ac-456a6db96eda\"}]}"
+left-index=1
+location=1
+right-commands-json='{"commands":[]}'
