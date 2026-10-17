@@ -1,0 +1,136 @@
+[/]
+app-picker-layout=[{'org.fedoraproject.MediaWriter.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'libreoffice-calc.desktop': <{'position': <5>}>, 'org.gnome.SimpleScan.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.Boxes.desktop': <{'position': <8>}>, 'org.gnome.Showtime.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'org.gnome.Characters.desktop': <{'position': <11>}>, 'Utilities': <{'position': <12>}>, 'System': <{'position': <13>}>, 'libreoffice-impress.desktop': <{'position': <14>}>, 'org.gnome.Tour.desktop': <{'position': <15>}>, 'org.gnome.Yelp.desktop': <{'position': <16>}>, 'libreoffice-writer.desktop': <{'position': <17>}>, 'org.gnome.Ptyxis.desktop': <{'position': <18>}>, 'com.cloudflare.WarpTaskbar.desktop': <{'position': <19>}>, 'org.gnome.Extensions.desktop': <{'position': <20>}>}]
+disable-user-extensions=false
+disabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['background-logo@fedorahosted.org', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'argos@pew.worldwidemann.com', 'executor@raujonas.github.io', 'search-pulse@rezkycodes']
+last-selected-power-profile='performance'
+remember-mount-password=false
+welcome-dialog-last-shown-version='50.0'
+
+[extensions/blur-my-shell]
+pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>, 'corners_top': <true>, 'corners_bottom': <true>}>}>]>}}
+rounded-blur-found=false
+settings-version=2
+
+[extensions/blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[extensions/blur-my-shell/applications]
+blur=false
+pipeline='pipeline_default'
+
+[extensions/blur-my-shell/coverflow-alt-tab]
+pipeline='pipeline_default'
+
+[extensions/blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+pipeline='pipeline_default_rounded'
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[extensions/blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[extensions/blur-my-shell/overview]
+pipeline='pipeline_default'
+
+[extensions/blur-my-shell/panel]
+blur=true
+brightness=0.59999999999999998
+corner-radius=0
+pipeline='pipeline_default_rounded'
+sigma=4
+static-blur=false
+
+[extensions/blur-my-shell/popup]
+blur=true
+brightness=0.59999999999999998
+override-background=true
+pipeline='pipeline_default_rounded'
+sigma=35
+static-blur=true
+
+[extensions/blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[extensions/blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[extensions/dash-to-dock]
+background-opacity=0.80000000000000004
+dash-max-icon-size=48
+dock-position='BOTTOM'
+height-fraction=0.90000000000000002
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+
+[extensions/executor]
+center-commands-json='{"commands":[]}'
+left-commands-json="{\"commands\":[{\"isActive\":true,\"command\":\"   bash -c '~/desktop-customization/scripts/stats.5s.sh | head -1'\",\"interval\":5,\"uuid\":\"7e2cbadc-0d68-4c6a-b7ac-456a6db96eda\"}]}"
+left-index=1
+location=1
+right-commands-json='{"commands":[]}'
+
+[extensions/just-perfection]
+accent-color-icon=false
+accessibility-menu=true
+activities-button=true
+background-menu=true
+controls-manager-spacing-size=0
+dash=true
+dash-icon-size=0
+double-super-to-appgrid=true
+invert-calendar-column-items=false
+keyboard-layout=true
+osd=true
+panel=true
+panel-in-overview=true
+ripple-box=true
+search=true
+show-apps-button=true
+startup-status=1
+support-notifier-type=0
+theme=false
+window-demands-attention-focus=false
+window-picker-icon=true
+window-preview-caption=true
+window-preview-close-button=true
+workspace=true
+workspace-background-corner-size=0
+workspace-popup=true
+workspaces-in-app-grid=true
+
+[extensions/search-pulse]
+animation-speed=100.0
+background-color=(0.11764705926179886, 0.11764705926179886, 0.18039216101169586, 0.74000000953674316)
+blur-background=true
+blur-brightness=0.59999999999999998
+blur-sigma=30.0
+border-color=(0.7960783839225769, 0.65098041296005249, 0.9686274528503418, 1.0)
+border-radius=7.0
+border-thickness=1
+entry-font-size=1
+monitor-count=1
+preferred-monitor=0
+scale-height=0.10000000000000001
+scale-width=0.10000000000000001
+shortcut-search=['<Super>d']
+
+[extensions/user-theme]
+name='Catppuccin-Mauve-Dark'
+
+[keybindings]
+show-screenshot-ui=['<Super><Shift>s']
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+switch-to-application-5=@as []
+toggle-application-view=['<Super>a']
+
+[world-clocks]
+locations=@av []
